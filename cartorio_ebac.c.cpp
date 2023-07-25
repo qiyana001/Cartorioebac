@@ -129,6 +129,7 @@ for(x=1;x=1;)
 	printf("\t1 - Registrar nomes\n");
 	printf("\t2 - Consultar nomes\n");
 	printf("\t3 - Deletar nomes\n");
+    printf("\t4 - sair do sistema\n");
     printf("opção:");
     
     scanf("%d" , &opcao);//armazenando a escolha do usuário
@@ -148,6 +149,12 @@ for(x=1;x=1;)
     case 3:
 	deletar();
     break;
+    
+    case 4:
+    printf("obrigado por utilizar o programa");
+	return 0;
+	break;
+		
     
     default: 
 	printf("ops! essa opção não está disponivel\n");
